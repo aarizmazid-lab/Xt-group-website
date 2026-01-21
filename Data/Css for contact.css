@@ -1,0 +1,157 @@
+body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #e8f5e9;
+      margin: 0;
+      padding: 0;
+      color: #1b5e20;
+      line-height: 1.6;
+    }
+
+a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+header {
+      background-color: #a5d6a7;
+      padding: 15px 25px 25px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+.header-top {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+.logo img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+nav {
+      margin-left: auto;
+      display: flex;
+      gap: 20px;
+    }
+
+nav a {
+      font-weight: 600;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+nav a:hover {
+      background-color: #81c784;
+      color: white;
+}
+
+header h1 {
+      text-align: center;
+      font-size: 2.3em;
+      margin-top: 15px;
+      font-weight: 800;
+      color: #1b5e20;
+    }
+
+header p {
+      text-align: center;
+      font-size: 1.1em;
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+
+    /* ---------- Main Content ---------- */
+main {
+      display: flex;
+      justify-content: center;
+      padding: 30px 15px;
+    }
+
+.contact-box {
+      background-color: #c8e6c9;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 750px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+.contact-box h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      color: #1b5e20;
+    }
+
+.email-list {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+
+.email-list a {
+      color: #1b5e20;
+      font-weight: bold;
+    }
+
+    
+form {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border-radius: 6px;
+      border: 1px solid #7cb68a;
+      background-color: #f1f8f3;
+      font-size: 1em;
+    }
+
+button {
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #66bb6a;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+button:hover {
+      background-color: #4b9c52;
+    }
+
+@keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+footer {
+      background-color: #a5d6a7;
+      text-align: center;
+      padding: 18px 10px;
+      margin-top: 40px;
+      color: #1b5e20;
+      font-weight: 500;
+    }
+
+footer a {
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+footer a:hover {
+      text-decoration: underline;
+      color: #0d3f13;
+    }
